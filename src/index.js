@@ -11,8 +11,8 @@ app.use(express.json())
 app.use(rotas)
 
 
-const port = process.env.PORT || 8000
+// const port = process.env.PORT || 8000
 
-app.listen(port, () => {
-    console.log(`Servidor iniciado na porta:${port}`);
+app.listen(3000, () => {
+    console.log(`Servidor iniciado na porta:${3000}`);
 })
