@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
-const senhaJwt = require('../senhaJWT');
-const knex = require('../conexao');
+const senhaJwt = require('../senhaJWT.js');
+const knex = require('../conexao.js');
 
 const verificarUsuario = async (req, res, next) => {
     const { authorization } = req.headers;
